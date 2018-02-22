@@ -9,6 +9,11 @@
 
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
 
-[node name="level 00" parent="." index="1" instance=ExtResource( 2 )]
+[node name="human2" parent="." index="1" instance=ExtResource( 1 )]
+
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0 )
+active = true
+
+[node name="level 00" parent="." index="2" instance=ExtResource( 2 )]
 
 

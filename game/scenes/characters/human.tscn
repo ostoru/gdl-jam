@@ -36,6 +36,7 @@ linear_damp = -1.0
 angular_velocity = Vector3( 0, 0, 0 )
 angular_damp = -1.0
 script = ExtResource( 1 )
+active = false
 
 [node name="col" type="CollisionShape" parent="." index="0"]
 
