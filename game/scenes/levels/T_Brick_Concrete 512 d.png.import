@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/T_Brick_Concrete 512 d.png-508e270030db70491e0dab14e538daa9.stex"
+
+[deps]
+
+source_file="res://scenes/levels/T_Brick_Concrete 512 d.png"
+source_md5="ce7af71f4e1a9cfbb2edf51c82b9dacf"
+
+dest_files=[ "res://.import/T_Brick_Concrete 512 d.png-508e270030db70491e0dab14e538daa9.stex" ]
+dest_md5="24a916fe956400b59f87ae0019e38a02"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
