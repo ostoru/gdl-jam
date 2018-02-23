@@ -8,7 +8,7 @@
 radius = 0.204484
 height = 1.54691
 
-[node name="human" type="RigidBody"]
+[node name="human" type="RigidBody" index="0"]
 
 input_ray_pickable = true
 input_capture_on_drag = false

@@ -1,5 +1,4 @@
 extends RigidBody
-var hp = 100
 export var active = false
 func _ready():
 	if active:
