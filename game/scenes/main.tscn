@@ -3,7 +3,7 @@
 [ext_resource path="res://scenes/levels/level 00.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/characters/human.gd" type="Script" id=2]
 [ext_resource path="res://scenes/characters/person.tscn" type="PackedScene" id=3]
-[ext_resource path="res://scenes/characters/gun rifle.gltf" type="PackedScene" id=4]
+[ext_resource path="res://icon.png" type="Texture" id=4]
 
 [sub_resource type="CapsuleShape" id=1]
 
@@ -16,7 +16,7 @@ height = 1.65094
 
 [node name="human" type="RigidBody" parent="." index="1"]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.12943, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.23113, 0 )
 input_ray_pickable = true
 input_capture_on_drag = false
 collision_layer = 1
@@ -43,25 +43,33 @@ linear_damp = -1.0
 angular_velocity = Vector3( 0, 0, 0 )
 angular_damp = -1.0
 script = ExtResource( 2 )
-active = true
+_sections_unfolded = [ "Transform" ]
+third_person = true
 
-[node name="CollisionShape" type="CollisionShape" parent="human" index="0"]
+[node name="col" type="CollisionShape" parent="human" index="0"]
 
+editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0 )
 shape = SubResource( 1 )
 disabled = false
 
-[node name="person" parent="human/CollisionShape" index="0" instance=ExtResource( 3 )]
+[node name="person" parent="human/col" index="0" instance=ExtResource( 3 )]
 
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 4.37114e-08, -1 )
 
 [node name="yaw" type="Spatial" parent="human" index="1"]
 
+editor/display_folded = true
+_sections_unfolded = [ "Transform" ]
+
 [node name="pitch" type="Spatial" parent="human/yaw" index="0"]
+
+_sections_unfolded = [ "Transform" ]
 
 [node name="cam base" type="Spatial" parent="human/yaw/pitch" index="0"]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.312285, 1.39313 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.573202, 1.79225 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="camera" type="Camera" parent="human/yaw/pitch/cam base" index="0"]
 
@@ -78,6 +86,38 @@ size = 1.0
 near = 0.05
 far = 100.0
 
-[node name="Scene Root" parent="human/yaw/pitch" index="1" instance=ExtResource( 4 )]
+[node name="Spatial" type="Spatial" parent="human/yaw/pitch" index="1"]
+
+_sections_unfolded = [ "Transform" ]
+
+[node name="Sprite3D" type="Sprite3D" parent="human/yaw/pitch/Spatial" index="0"]
+
+layers = 1
+material_override = null
+cast_shadow = 1
+extra_cull_margin = 0.0
+use_in_baked_light = false
+lod_min_distance = 0.0
+lod_min_hysteresis = 0.0
+lod_max_distance = 0.0
+lod_max_hysteresis = 0.0
+centered = true
+offset = Vector2( 0, 0 )
+flip_h = false
+flip_v = false
+modulate = Color( 1, 1, 1, 1 )
+opacity = 1.0
+pixel_size = 0.01
+axis = 2
+transparent = true
+shaded = false
+double_sided = true
+alpha_cut = 0
+texture = ExtResource( 4 )
+vframes = 1
+hframes = 1
+frame = 0
+region_enabled = false
+region_rect = Rect2( 0, 0, 0, 0 )
 
 
