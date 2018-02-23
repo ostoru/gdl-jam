@@ -20,7 +20,7 @@ var min_cam_rot = -1.5
 func _physics_process(delta):
 	if active:
 		$yaw.rotate_y( -mouse_relative_pos.x * sensitivity * delta)
-		$yaw/pitch.rotate_x(max(-.9,min(.9,mouse_relative_pos.y * sensitivity * delta)))
+		$yaw/pitch.rotate_x(max(-.9,min(.9,-mouse_relative_pos.y * sensitivity * delta)))
 		if $yaw/pitch.rotation.x > max_cam_rot:
 			$yaw/pitch.rotation.x = max_cam_rot
 		elif $yaw/pitch.rotation.x < min_cam_rot:

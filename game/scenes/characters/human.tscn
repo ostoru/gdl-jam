@@ -1,14 +1,14 @@
 [gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://scenes/characters/human.gd" type="Script" id=1]
-[ext_resource path="res://scenes/characters/person.gltf" type="PackedScene" id=2]
+[ext_resource path="res://scenes/characters/person.tscn" type="PackedScene" id=2]
 
 [sub_resource type="CapsuleShape" id=1]
 
 radius = 0.204484
 height = 1.54691
 
-[node name="human" type="RigidBody" index="0"]
+[node name="human" type="RigidBody"]
 
 input_ray_pickable = true
 input_capture_on_drag = false
@@ -40,12 +40,11 @@ active = false
 
 [node name="col" type="CollisionShape" parent="." index="0"]
 
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, -2.98023e-08, 1, 0, -1, -2.98023e-08, 0, 0, 0 )
 shape = SubResource( 1 )
 disabled = false
 
-[node name="Scene Root" parent="col" index="0" instance=ExtResource( 2 )]
+[node name="person" parent="col" index="0" instance=ExtResource( 2 )]
 
 transform = Transform( 1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 2.98023e-08, -1 )
 
