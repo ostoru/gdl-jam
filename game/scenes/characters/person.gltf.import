@@ -7,10 +7,10 @@ path="res://.import/person.gltf-4e416184ad281b62c402604aa1427aba.scn"
 [deps]
 
 source_file="res://scenes/characters/person.gltf"
-source_md5="7a8a67ded053324d100b9b6f929a7cd7"
+source_md5="ff85c3c825a004e6ad85751508d802f1"
 
 dest_files=[ "res://.import/person.gltf-4e416184ad281b62c402604aa1427aba.scn" ]
-dest_md5="d59cd8cd16c8804f0d189a8d1bbfca3b"
+dest_md5="cd323a02d24dc2e0e188fc945b9c7d61"
 
 [params]
 
