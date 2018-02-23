@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/T_Brick_Baked_AO 512 n.png-ec64c27afb9df8a3aac7dcc5c60a0269.stex"
+
+[deps]
+
+source_file="res://scenes/levels/T_Brick_Baked_AO 512 n.png"
+source_md5="458981c4377a4b7de5f79e0135af985d"
+
+dest_files=[ "res://.import/T_Brick_Baked_AO 512 n.png-ec64c27afb9df8a3aac7dcc5c60a0269.stex" ]
+dest_md5="80bb9abc8dcd4fc512a9c29f3ab24165"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

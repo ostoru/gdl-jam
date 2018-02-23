@@ -1,0 +1,33 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/gravel3 1024 disp.png-d7f9b5f96d96b60b8956fb6eb85e70b0.s3tc.stex"
+path.etc2="res://.import/gravel3 1024 disp.png-d7f9b5f96d96b60b8956fb6eb85e70b0.etc2.stex"
+
+[deps]
+
+source_file="res://scenes/levels/gravel3 1024 disp.png"
+source_md5="40a50434259012cda9c4fdbfbf321a50"
+
+dest_files=[ "res://.import/gravel3 1024 disp.png-d7f9b5f96d96b60b8956fb6eb85e70b0.s3tc.stex", "res://.import/gravel3 1024 disp.png-d7f9b5f96d96b60b8956fb6eb85e70b0.etc2.stex" ]
+dest_md5="6782638d1792f072b49b07e3ca8cb447"
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
