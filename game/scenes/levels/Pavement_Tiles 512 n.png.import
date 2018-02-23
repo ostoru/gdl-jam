@@ -1,0 +1,33 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/Pavement_Tiles 512 n.png-0b9ec90d4a5bc79375558bf2f3f386cc.s3tc.stex"
+path.etc2="res://.import/Pavement_Tiles 512 n.png-0b9ec90d4a5bc79375558bf2f3f386cc.etc2.stex"
+
+[deps]
+
+source_file="res://scenes/levels/Pavement_Tiles 512 n.png"
+source_md5="0f3b51fae0828b4bcd2196614f45aef9"
+
+dest_files=[ "res://.import/Pavement_Tiles 512 n.png-0b9ec90d4a5bc79375558bf2f3f386cc.s3tc.stex", "res://.import/Pavement_Tiles 512 n.png-0b9ec90d4a5bc79375558bf2f3f386cc.etc2.stex" ]
+dest_md5="d6877d9e318518b05b29d4f00c3979ea"
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=1
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

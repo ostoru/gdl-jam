@@ -10,7 +10,7 @@
 radius = 0.220184
 height = 1.65094
 
-[node name="main" type="Node" index="0"]
+[node name="main" type="Node"]
 
 [node name="level 00" parent="." index="0" instance=ExtResource( 1 )]
 

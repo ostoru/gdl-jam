@@ -62,9 +62,10 @@ var button = {
 var moving = false
 func third_person_input_handling(delta):
 	if Input.is_action_pressed("jump"):
-		pass
+		if self.get_colliding_bodies() != null:
+			
+			pass
 	else:
-		
 		if Input.is_action_pressed("aim"):
 			pass
 		elif Input.is_action_pressed("run"):
